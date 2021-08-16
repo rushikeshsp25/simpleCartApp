@@ -1,0 +1,7 @@
+.cart-container-wrapper{
+    padding: 50px 200px;
+}
+.cart-container-wrapper .cart-container{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,7 +1,8 @@
+import CartContainer from './components/CartContainer';
 
 function App() {
   return (
-    <div></div>
+    <CartContainer/>
   );
 }
 

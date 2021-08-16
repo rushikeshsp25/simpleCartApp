@@ -1,0 +1,50 @@
+.items-container{
+    padding: 5px;
+    width: 70%;
+}
+.items-container .item{
+    width: 100%;
+}
+
+.items-container .item.head{
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+}
+
+.items-container .item div:nth-child(1){
+    width: 50%;
+}
+.items-container .item div:nth-child(2){
+    margin-left: 10px;
+    width: 30%;
+}
+.items-container .item div:nth-child(3){
+    margin-left: 10px;
+    width: 20%;
+}
+.items-container .item{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}   
+.items-container .item .item-description {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+.items-container .item .item-description .item-image{
+    width: 40px;
+    height: 40px;
+}   
+.items-container .item .item-description .item-name{
+    flex-grow: 1;
+}
+.items-container .item .item-qty{
+    display: flex;
+}
+.items-container .item .item-qty .item-qty-input{
+    width: 50px;
+    margin: 0 10px;
+}

@@ -1,0 +1,17 @@
+.price-container{
+    width: 30%;
+}
+.price-container .inner-container{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid lightgray;
+}
+.price-container .inner-container .title{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+.price-container .inner-container .total{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightgray;
+}
