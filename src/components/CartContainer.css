@@ -1,7 +1,17 @@
 .cart-container-wrapper{
-    padding: 50px 200px;
+    padding: 50px 10vw;
 }
 .cart-container-wrapper .cart-container{
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 800px){
+    .cart-container-wrapper{
+        padding: 20px 5vw;
+    }
+    .cart-container-wrapper .cart-container{
+        flex-direction: column;
+        align-items: center;
+    }
 }

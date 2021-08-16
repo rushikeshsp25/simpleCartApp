@@ -1,5 +1,5 @@
 import './ItemsContainer.css';
-export default function ItemsContainer({ items, onItemsChange, onReset,totalItems }) {
+export default function ItemsContainer({ items, onItemsChange, onReset, totalItems }) {
     const handleItemCountChange = (index, newCount) => {
         const updatedItems = items.map((item, _index) => {
             if (_index === index)
@@ -43,7 +43,7 @@ export default function ItemsContainer({ items, onItemsChange, onReset,totalItem
                                     type="number"
                                     value={item.qty}
                                     min={0}
-                                    onChange={(event) => handleItemCountChange(index, event.target.value)}
+                                    onChange={(event) => handleItemCountChange(index, Number(event.target.value))}
                                 />
                                 <button onClick={() => handleItemCountChange(index, Number(item.qty) + 1)}>+</button>
                             </div>
